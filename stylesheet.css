@@ -1,0 +1,56 @@
+nav {
+	 width:100%;
+	 background:navy;
+	 height:50px;
+}
+
+nav ul {
+	    list-style:none;
+		padding:0;
+		margin:0;
+		position:absolute;
+}
+
+nav ul li {
+	       float:left;
+}
+
+nav ul li a {
+	         width:200px;
+			 color:gold;
+			 display:block;
+			 text-decoration:none;
+			 text-align:center;
+			 padding-left:100px;
+}
+
+nav ul li a:hover {
+	               color:navy;
+				   background:gold;
+				   padding-left:50px;
+				   padding-right:50px;
+}
+
+nav ul li ul li a:hover { 
+                         color:white;
+						 background:gold;
+						 padding-left:50px;
+				         padding-right:50px;
+						 text-align:center;
+}
+
+nav ul li ul { 
+              background:navy;
+			  display:none;
+}
+
+nav ul li ul li {
+	             float:none;
+				 text-align:center;
+}
+
+nav ul li:hover ul {
+	                display:block;
+					padding-left:50px;
+				    padding-right:50px;
+}
